@@ -1,0 +1,38 @@
+header {
+    background: rgb(36, 113, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9%;
+
+    h1 {
+        text-align: left;
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+
+    .header-buttons {
+        margin-right: 10px;
+
+        button {
+            background: rgb(36, 113, 180);
+            border: none;
+            color: white;
+            height: 30px;
+            width: 30px;
+            border-radius: 30px;
+
+            &:active {
+                background-color: #30587a;
+                ;
+            }
+
+            i {
+                font-size: 1rem;
+                transform: translateY(-0px);
+            }
+        }
+
+    }
+
+}
